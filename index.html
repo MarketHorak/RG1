@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,700;0,800;1,700;1,800&display=swap" rel="stylesheet">
+
+    <title>GAME</title>
+  </head>
+  <body>
+    <h1>Can you guess a number?</h1>
+<div class="kontejner">
+  <div>
+    <section class="box">
+      <h2>How to play?</h2>
+      <ul>
+        <li>Guess the secret number between 0 and 100</li>
+        <li>If you guess incorrect number, you will get a hint</li>
+        <li>If you guess correct number, you win</li>
+      </ul>
+    </section>
+
+    <section class="box1">
+      <h2>Secret NUMBER</h2>
+      <span class="intervalNumber">0</span>
+      <span class="lessThen">&lt;</span>
+      <img src="star.svg" />
+      <span class="guessedNumber">*</span>
+      <span class="lessThen">&lt;</span>
+      <span class="intervalNumber">100</span>
+    </section>
+    
+  </div>
+
+    <section class="box2">
+      <form>
+        <label> Number between 0 - 100 : 
+            <input type="number" placeholder="55" min="0" max="100"/>
+            <button>Guess</button>
+        </label>
+      </form>
+    </section>
+  </div>
+  </body>
+</html>
